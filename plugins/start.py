@@ -1,6 +1,7 @@
 # (©)Codexbotz
 # Recode By Zaen @Mafia_Tobatz
 # Recode By Dappa @mahadappa
+# Rehansaputradewantoro
 # Kalo clone Gak usah hapus 
 # gue tandain akun tele nya ngentod
 
@@ -262,7 +263,7 @@ async def get_uptime(client, m: Message):
     uptime_sec = (current_time - START_TIME).total_seconds()
     uptime = await _human_time_duration(int(uptime_sec))
     await m.reply_text(
-        "🤖 <b>Bot Status:</b>\n"
+        "🤖 <b>Status Fsub5Bot:</b>\n"
         f"• <b>Uptime:</b> <code>{uptime}</code>\n"
         f"• <b>Start Time:</b> <code>{START_TIME_ISO}</code>"
     )
